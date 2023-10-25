@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                ВСЁ ПРО ЗАЙЦЕВ
+            </h1>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <h2>Зайцы в природе</h2>
+            <ol>
+                <li>Белый Заяц</li>
+                <li>Серый Заяц</li>
+                <li>Заяц из "Ну, Погоди!"</li>
+                <li>Просто Кролик</li>
+            </ol>
+
+        </div>
+        <input id="button" type="submit" value="push me!">
+</main>
+<footer>
+<div>
+    <h3>Если что, обращайтесь</h3>
+</div>
+</footer>
+<script>
+    let button = document.querySelector('#button');
+    let foot = document.querySelector('footer');
+    button.addEventListener('click', function(){
+        foot.style.borderStyle = 'solid';
+        foot.style.fontSize = '30px';
+        foot.style.color = 'brown';
+        foot.style.backgroundColor = 'blue';
+        foot.style.borderColor = 'rgb(0,0,0)';
+    })
+</script>
+</body>
+</html>

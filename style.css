@@ -1,0 +1,15 @@
+.general{
+    position: absolute;
+    margin: 5px;
+    border: 3px;
+    border-color: rgb(13, 23, 138);
+    background-color: rgb(200, 240, 240);
+    color: rgb(0, 80, 0);
+}
+.general1:hover{
+    color: rgb(250, 20, 120);
+    background-color: rgb(160, 200, 200);
+}
+#viz{
+    size: 22px;
+}
